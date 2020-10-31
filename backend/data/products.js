@@ -1,11 +1,10 @@
 const products = [
   {
-    _id: "1",
     name: "Ibishyimbo",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKkI-xspkCeKZagBp5J7IeZxHosQVqkFdgSw&usqp=CAU",
     description: "Ibishyimbo nibiribwa byibanze",
-    Brand: "Mutiki",
+    brand: "Mutiki",
     category: "food",
     price: 1000,
     countInStock: 26,
@@ -13,12 +12,11 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: "2",
     name: "Ibitoki",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKkI-xspkCeKZagBp5J7IeZxHosQVqkFdgSw&usqp=CAU",
     description: "Ibitoki binini byo kurya",
-    Brand: "Ibitoki",
+    brand: "Ibitoki",
     category: "food",
     price: 300,
     countInStock: 0,
@@ -26,12 +24,11 @@ const products = [
     numReviews: 5,
   },
   {
-    _id: "3",
     name: "Imyumbati",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKkI-xspkCeKZagBp5J7IeZxHosQVqkFdgSw&usqp=CAU",
     description: "Ibishyimbo nibiribwa byibanze",
-    Brand: "Mutiki",
+    brand: "Mutiki",
     category: "food",
     price: 1000,
     countInStock: 200,
@@ -39,12 +36,11 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: "4",
     name: "Ibigori",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKkI-xspkCeKZagBp5J7IeZxHosQVqkFdgSw&usqp=CAU",
     description: "Ibishyimbo nibiribwa byibanze",
-    Brand: "Mutiki",
+    brand: "Mutiki",
     category: "food",
     price: 1000,
     countInStock: 10,
@@ -52,12 +48,11 @@ const products = [
     numReviews: 1,
   },
   {
-    _id: "5",
     name: "Imboga",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKkI-xspkCeKZagBp5J7IeZxHosQVqkFdgSw&usqp=CAU",
     description: "Ibishyimbo nibiribwa byibanze",
-    Brand: "Mutiki",
+    brand: "Mutiki",
     category: "food",
     price: 1000,
     countInStock: 30,
@@ -65,12 +60,11 @@ const products = [
     numReviews: 2,
   },
   {
-    _id: "6",
     name: "Ubugari",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKkI-xspkCeKZagBp5J7IeZxHosQVqkFdgSw&usqp=CAU",
     description: "Ibishyimbo nibiribwa byibanze",
-    Brand: "Mutiki",
+    brand: "Mutiki",
     category: "food",
     price: 1000,
     countInStock: 20,
@@ -78,4 +72,4 @@ const products = [
     numReviews: 5,
   },
 ];
-module.exports = products;
+export default products;
