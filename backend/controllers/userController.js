@@ -9,9 +9,12 @@ import Usershelpers from "../helpers/user.js";
 // @access  Public
 const authUser = asyncHandler(async (req, res) => {
   const { email, password } = req.body;
-
+  if (!(email || password)) {
+    res.status(401);
+    throw new Error("Invalid email or password");
+  }
   const user = await User.findOne({ email });
-  console.log("usersss", user.password);
+
   if (user && Usershelpers.comparePassword(user.password, password)) {
     res.json({
       _id: user._id,
