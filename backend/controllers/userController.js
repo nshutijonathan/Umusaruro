@@ -33,7 +33,7 @@ const authUser = asyncHandler(async (req, res) => {
 // @route   POST /api/users
 // @access  Public
 const registerUser = asyncHandler(async (req, res) => {
-  const { name, email, password } = req.body;
+  let { name, email, password } = req.body;
 
   const userExists = await User.findOne({ email });
 
@@ -41,6 +41,7 @@ const registerUser = asyncHandler(async (req, res) => {
     res.status(400);
     throw new Error("User already exists");
   }
+  password = Usershelpers.hashPassword(password);
 
   const user = await User.create({
     name,
