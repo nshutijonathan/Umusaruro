@@ -78,7 +78,7 @@ const updateProduct = asyncHandler(async (req, res) => {
     req.body;
 
   const product = await Product.findById(req.params.id);
-
+  console.log("product", product);
   if (product) {
     product.name = name;
     product.price = price;
