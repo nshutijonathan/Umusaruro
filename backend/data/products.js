@@ -71,5 +71,77 @@ const products = [
     rating: 1.0,
     numReviews: 5,
   },
+  {
+    name: "Isombe",
+    image:
+      "https://umutihealth.com/wp-content/uploads/2017/04/cassava-tree-AKIU_zpsjh6mq7ju.jpg",
+    description: "Isombe",
+    brand: "Mutiki",
+    category: "food",
+    price: 1000,
+    countInStock: 20,
+    rating: 1.0,
+    numReviews: 5,
+  },
+  {
+    name: "Impungure",
+    image:
+      "https://umutihealth.com/wp-content/uploads/2017/04/cassava-tree-AKIU_zpsjh6mq7ju.jpg",
+    description: "Isombe",
+    brand: "Mutiki",
+    category: "food",
+    price: 1000,
+    countInStock: 20,
+    rating: 1.0,
+    numReviews: 5,
+  },
+  {
+    name: "Intoryi",
+    image:
+      "https://umutihealth.com/wp-content/uploads/2017/04/cassava-tree-AKIU_zpsjh6mq7ju.jpg",
+    description: "Isombe",
+    brand: "Mutiki",
+    category: "food",
+    price: 1000,
+    countInStock: 20,
+    rating: 1.0,
+    numReviews: 5,
+  },
+  {
+    name: "Ubushera",
+    image:
+      "https://umutihealth.com/wp-content/uploads/2017/04/cassava-tree-AKIU_zpsjh6mq7ju.jpg",
+    description: "Isombe",
+    brand: "Mutiki",
+    category: "food",
+    price: 1000,
+    countInStock: 20,
+    rating: 1.0,
+    numReviews: 5,
+  },
+  {
+    name: "Amateke",
+    image:
+      "https://umutihealth.com/wp-content/uploads/2017/04/cassava-tree-AKIU_zpsjh6mq7ju.jpg",
+    description: "Isombe",
+    brand: "Mutiki",
+    category: "food",
+    price: 1000,
+    countInStock: 20,
+    rating: 1.0,
+    numReviews: 5,
+  },
+  {
+    name: "Inyama",
+    image:
+      "https://umutihealth.com/wp-content/uploads/2017/04/cassava-tree-AKIU_zpsjh6mq7ju.jpg",
+    description: "Isombe",
+    brand: "Mutiki",
+    category: "food",
+    price: 1000,
+    countInStock: 20,
+    rating: 1.0,
+    numReviews: 5,
+  },
 ];
 export default products;
